@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s08ilg10oh",
+  "description": "https://scrimba.com/s08ilg10oh/head",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
