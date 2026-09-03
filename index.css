@@ -3,4 +3,100 @@ html, body {
     padding: 0;
     text-align: center;
 }
+header, article {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
 
+header {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #C6C6C6;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 100px;
+    height: 70px;
+    margin-left: 11px;
+}
+.header-image,
+.van-prof-image {
+    width: 50px;
+    height: 50px;
+}
+
+.header-image {
+    border-radius: 50%;
+    margin-right: 11px;
+    margin-top: 5px;
+    
+}
+
+.van-prof-image,
+.info {
+    margin-left: 11px;
+    margin-top: 10px;
+}
+
+.van-prof-image {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.block {
+    display: flex;
+}
+
+.info {
+    font-size: 0.4375rem;
+}
+
+.vincent-name {
+    font-weight: bolder;
+}
+
+.van-post {
+    width: 500px;
+}
+
+.icons {
+    width: 40px;
+}
+
+.icons {
+    transition: transform 0.2s ease;
+}
+
+.icons:hover {
+    transform: scale(1.2);
+}
+
+.list {
+    display: flex;
+    margin-left: -25px;
+}
+
+.space {
+    margin-bottom: 0px;
+}
+.likes-and-comments {
+    text-align: left;
+    font-size: 0.625rem;
+    margin-left: 18px;
+    padding-bottom: 10px;
+}
+
+span {
+    font-size: 0.9375rem;
+}
+
+.separator {
+    border-bottom: 2px solid #C6C6C6;
+}
+
+.no-separator {
+    border-bottom: none;
+}
